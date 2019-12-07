@@ -2,7 +2,7 @@
 authors = ["Taylor Hogge <hoggetaylor@gmail.com>"]
 edition = "2018"
 name = "circadian_time"
-version = "0.0.1"
+version = "0.0.2"
 description = "Circadian timezone support for chrono"
 documentation = "https://docs.rs/circadian_time"
 homepage = "https://github.com/hoggetaylor/circadian_time"

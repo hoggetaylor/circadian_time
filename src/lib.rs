@@ -1,13 +1,13 @@
+//! This crate adds support for the Circadian timezone to chrono.
+//! The Circadian timezone is aligned to the time of dawn as opposed to the time of noon.
+//! i.e. at dawn the Circadian time will be 00:00
+
 use chrono::{
     DateTime, FixedOffset, Local, LocalResult, NaiveDate, NaiveDateTime, Offset, TimeZone,
     Timelike, Utc,
 };
 use circadia::{GlobalPosition, SunEvent, SunEvents};
 use std::fmt;
-
-///! This crate adds support for the Circadian timezone to chrono.
-///! The Circadian timezone is aligned to the time of dawn as opposed to the time of noon.
-///! i.e. at dawn the Circadian time will be 00:00
 
 /// A type that can be positioned on the globe.
 /// Implement this trait to provide the location
