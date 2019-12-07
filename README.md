@@ -7,6 +7,7 @@ timezone](https://irreducible.software/essays/circadian-time) to chrono.
 
 ``` shell
 $ cargo add circadian_time --version 0.0.1
+$ cargo add circadia --version 0.0.1
 ```
 
 ## Usage

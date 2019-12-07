@@ -2,7 +2,15 @@
 authors = ["Taylor Hogge <hoggetaylor@gmail.com>"]
 edition = "2018"
 name = "circadian_time"
-version = "0.1.0"
+version = "0.0.1"
+description = "Circadian timezone support for chrono"
+documentation = "https://docs.rs/circadian_time"
+homepage = "https://github.com/hoggetaylor/circadian_time"
+repository = "https://github.com/hoggetaylor/circadian_time"
+readme = "README.md"
+keywords = ["chrono", "circadian", "timezone"]
+license = "MIT"
+maintenance = { status = "experimental" }
 
 [dependencies]
 chrono = "0.4.9"
