@@ -1,0 +1,9 @@
+[package]
+authors = ["Taylor Hogge <hoggetaylor@gmail.com>"]
+edition = "2018"
+name = "circadian_time"
+version = "0.1.0"
+
+[dependencies]
+chrono = "0.4.9"
+circadia = "0.0.1"
