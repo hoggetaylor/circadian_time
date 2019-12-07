@@ -3,6 +3,10 @@
 This crate adds support for the [circadian
 timezone](https://irreducible.software/essays/circadian-time) to chrono.
 
+## Documentation
+
+Documentation can be found on [docs.rs](https://docs.rs/circadian_time)
+
 ## Installation
 
 ``` shell
@@ -30,4 +34,3 @@ fn main() {
     println!("{}", now.format("%T"));
 }
 ```
-
